@@ -15,10 +15,19 @@
 		BC2ED6B0230419DE00FDC7D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2ED6AE230419DE00FDC7D3 /* LaunchScreen.storyboard */; };
 		BC5D635923041B6600652E11 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D635823041B6600652E11 /* Constants.swift */; };
 		BC5D635E23041C0B00652E11 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D635D23041C0B00652E11 /* ListVC.swift */; };
-		BC5D636023041C1900652E11 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D635F23041C1900652E11 /* DetailsVC.swift */; };
-		BC5D636223041C3900652E11 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D636123041C3900652E11 /* BaseVC.swift */; };
-		BC5D636623041D0300652E11 /* RestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D636523041D0300652E11 /* RestService.swift */; };
-		BC5D636823041D6600652E11 /* PokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D636723041D6600652E11 /* PokeModel.swift */; };
+		BC5D636623041D0300652E11 /* Rest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D636523041D0300652E11 /* Rest.swift */; };
+		BC5D636A23042E3700652E11 /* VCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D636923042E3700652E11 /* VCRouter.swift */; };
+		BC5D636D23042E8700652E11 /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D636C23042E8700652E11 /* BaseVM.swift */; };
+		BC5D636F23042EF400652E11 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D636E23042EF400652E11 /* DataModel.swift */; };
+		BC5D637623042FAE00652E11 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D637023042FAE00652E11 /* Cell.swift */; };
+		BC5D637723042FAE00652E11 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC5D637123042FAE00652E11 /* Cell.xib */; };
+		BC5D637823042FAE00652E11 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D637223042FAE00652E11 /* BaseVC.swift */; };
+		BC5D637923042FAE00652E11 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D637323042FAE00652E11 /* DetailsVC.swift */; };
+		BC5D637A23042FAE00652E11 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D637423042FAE00652E11 /* MapVC.swift */; };
+		BC5D637B23042FAE00652E11 /* InitialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D637523042FAE00652E11 /* InitialVC.swift */; };
+		BC5D637D230432A900652E11 /* InitialVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D637C230432A900652E11 /* InitialVM.swift */; };
+		BC5D637F230432DB00652E11 /* DetailsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D637E230432DB00652E11 /* DetailsVM.swift */; };
+		BC5D63812304335E00652E11 /* MapVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D63802304335E00652E11 /* MapVM.swift */; };
 		C4D47BE5413FE75EEFD09E02 /* Pods_universe_rx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 325E336D7269532D18A12652 /* Pods_universe_rx.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,10 +45,19 @@
 		BC2ED6B1230419DE00FDC7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC5D635823041B6600652E11 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BC5D635D23041C0B00652E11 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
-		BC5D635F23041C1900652E11 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
-		BC5D636123041C3900652E11 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
-		BC5D636523041D0300652E11 /* RestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestService.swift; sourceTree = "<group>"; };
-		BC5D636723041D6600652E11 /* PokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeModel.swift; sourceTree = "<group>"; };
+		BC5D636523041D0300652E11 /* Rest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rest.swift; sourceTree = "<group>"; };
+		BC5D636923042E3700652E11 /* VCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRouter.swift; sourceTree = "<group>"; };
+		BC5D636C23042E8700652E11 /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		BC5D636E23042EF400652E11 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		BC5D637023042FAE00652E11 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		BC5D637123042FAE00652E11 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		BC5D637223042FAE00652E11 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		BC5D637323042FAE00652E11 /* DetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		BC5D637423042FAE00652E11 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		BC5D637523042FAE00652E11 /* InitialVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialVC.swift; sourceTree = "<group>"; };
+		BC5D637C230432A900652E11 /* InitialVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialVM.swift; sourceTree = "<group>"; };
+		BC5D637E230432DB00652E11 /* DetailsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVM.swift; sourceTree = "<group>"; };
+		BC5D63802304335E00652E11 /* MapVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +101,7 @@
 		BC2ED69F230419DC00FDC7D3 /* universe_rx */ = {
 			isa = PBXGroup;
 			children = (
+				BC5D636B23042E5300652E11 /* ViewModel */,
 				BC5D635723041B5000652E11 /* Utils */,
 				BC5D636323041C5700652E11 /* Models */,
 				BC5D635A23041BC300652E11 /* Controllers */,
@@ -102,7 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				BC5D635823041B6600652E11 /* Constants.swift */,
-				BC5D636523041D0300652E11 /* RestService.swift */,
+				BC5D636523041D0300652E11 /* Rest.swift */,
+				BC5D636923042E3700652E11 /* VCRouter.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -110,9 +130,10 @@
 		BC5D635A23041BC300652E11 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BC5D636123041C3900652E11 /* BaseVC.swift */,
+				BC5D637223042FAE00652E11 /* BaseVC.swift */,
 				BC5D635D23041C0B00652E11 /* ListVC.swift */,
-				BC5D635F23041C1900652E11 /* DetailsVC.swift */,
+				BC5D637523042FAE00652E11 /* InitialVC.swift */,
+				BC5D637323042FAE00652E11 /* DetailsVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -120,7 +141,7 @@
 		BC5D636323041C5700652E11 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				BC5D636723041D6600652E11 /* PokeModel.swift */,
+				BC5D636E23042EF400652E11 /* DataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -128,8 +149,22 @@
 		BC5D636423041C6F00652E11 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BC5D637023042FAE00652E11 /* Cell.swift */,
+				BC5D637123042FAE00652E11 /* Cell.xib */,
+				BC5D637423042FAE00652E11 /* MapVC.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BC5D636B23042E5300652E11 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC5D636C23042E8700652E11 /* BaseVM.swift */,
+				BC5D637C230432A900652E11 /* InitialVM.swift */,
+				BC5D637E230432DB00652E11 /* DetailsVM.swift */,
+				BC5D63802304335E00652E11 /* MapVM.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		E16F40D25C663E9CF08C0C21 /* Pods */ = {
@@ -153,6 +188,7 @@
 				BC2ED69A230419DC00FDC7D3 /* Frameworks */,
 				BC2ED69B230419DC00FDC7D3 /* Resources */,
 				D63C6EDFBAAA9F4F725CA7D4 /* [CP] Embed Pods Frameworks */,
+				B14FB09B4FD83024FEA28785 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC2ED6B0230419DE00FDC7D3 /* LaunchScreen.storyboard in Resources */,
+				BC5D637723042FAE00652E11 /* Cell.xib in Resources */,
 				BC2ED6AD230419DE00FDC7D3 /* Assets.xcassets in Resources */,
 				BC2ED6A8230419DC00FDC7D3 /* Main.storyboard in Resources */,
 			);
@@ -232,6 +269,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B14FB09B4FD83024FEA28785 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-universe_rx/Pods-universe_rx-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-universe_rx/Pods-universe_rx-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-universe_rx/Pods-universe_rx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D63C6EDFBAAA9F4F725CA7D4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,14 +311,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC5D635923041B6600652E11 /* Constants.swift in Sources */,
-				BC5D636023041C1900652E11 /* DetailsVC.swift in Sources */,
+				BC5D636F23042EF400652E11 /* DataModel.swift in Sources */,
 				BC5D635E23041C0B00652E11 /* ListVC.swift in Sources */,
-				BC5D636623041D0300652E11 /* RestService.swift in Sources */,
+				BC5D637F230432DB00652E11 /* DetailsVM.swift in Sources */,
+				BC5D636623041D0300652E11 /* Rest.swift in Sources */,
+				BC5D637623042FAE00652E11 /* Cell.swift in Sources */,
 				BC2ED6A1230419DC00FDC7D3 /* AppDelegate.swift in Sources */,
+				BC5D63812304335E00652E11 /* MapVM.swift in Sources */,
+				BC5D636A23042E3700652E11 /* VCRouter.swift in Sources */,
+				BC5D637823042FAE00652E11 /* BaseVC.swift in Sources */,
 				BC2ED6AB230419DC00FDC7D3 /* universe_rx.xcdatamodeld in Sources */,
-				BC5D636823041D6600652E11 /* PokeModel.swift in Sources */,
-				BC5D636223041C3900652E11 /* BaseVC.swift in Sources */,
+				BC5D637A23042FAE00652E11 /* MapVC.swift in Sources */,
+				BC5D637D230432A900652E11 /* InitialVM.swift in Sources */,
+				BC5D637923042FAE00652E11 /* DetailsVC.swift in Sources */,
+				BC5D637B23042FAE00652E11 /* InitialVC.swift in Sources */,
 				BC2ED6A3230419DC00FDC7D3 /* SceneDelegate.swift in Sources */,
+				BC5D636D23042E8700652E11 /* BaseVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
