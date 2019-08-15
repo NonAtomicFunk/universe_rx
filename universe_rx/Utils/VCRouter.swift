@@ -19,9 +19,14 @@ final class VCRouter: NSObject {
     override init() {
         super.init()
         
+        let uiWindow: UIWindow = SceneDelegate().window ?? UIWindow()
+        self.window = uiWindow
+        
         self.storyBoard = UIStoryboard(name: "Main", bundle: nil)
         self.navigationSontroller = storyBoard.instantiateInitialViewController() as? UINavigationController
         self.navigationSontroller.navigationBar.tintColor = .black
+        
+        uiWindow.rootViewController = navigationSontroller
     }
     
     func popBack() {
@@ -48,6 +53,8 @@ final class VCRouter: NSObject {
         
         vcToGo.viewModel = vm
         vcToGo.navigationItem.hidesBackButton = true
+        print("Any nav luck???", self.navigationSontroller)
         self.navigationSontroller!.pushViewController(vcToGo!, animated: true)
+//        self.window.rootViewController = vcToGo
     }
 }

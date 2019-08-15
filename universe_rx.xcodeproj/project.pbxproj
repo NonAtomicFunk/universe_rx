@@ -107,7 +107,6 @@
 				BC5D635A23041BC300652E11 /* Controllers */,
 				BC5D636423041C6F00652E11 /* Views */,
 				BC2ED6A0230419DC00FDC7D3 /* AppDelegate.swift */,
-				BC2ED6A6230419DC00FDC7D3 /* Main.storyboard */,
 				BC2ED6A2230419DC00FDC7D3 /* SceneDelegate.swift */,
 				BC2ED6AC230419DE00FDC7D3 /* Assets.xcassets */,
 				BC2ED6AE230419DE00FDC7D3 /* LaunchScreen.storyboard */,
@@ -152,6 +151,7 @@
 				BC5D637023042FAE00652E11 /* Cell.swift */,
 				BC5D637123042FAE00652E11 /* Cell.xib */,
 				BC5D637423042FAE00652E11 /* MapVC.swift */,
+				BC2ED6A6230419DC00FDC7D3 /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -481,7 +481,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Me-Myself-i.universe-rx";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -500,7 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Me-Myself-i.universe-rx";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
